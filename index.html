@@ -55,17 +55,17 @@
 					</div>
 
 					<!-- Social links -->
-					<div class="social">
-							<a href="contact@itmattersorg.in"><span class="fa fa-envelope" title="Email"></span></a>
-							<a href="https://www.facebook.com/ItMattersOfficial/"><span class="fa fa-facebook" title="Facebook"></span></a>
-                            <!-- <a href="#"><span class="fa fa-twitter" title="Twitter"></span></a> -->
-                            <a href="https://instagram.com/itmattersofficial/"><span class="fa fa-instagram" title="Instagram"></span></a>
-                            <!-- <a href="#"><span class="fa fa-google-plus" title="Google Plus"></span></a> -->
+					<div class="social modal-toggle">
+						<a href="#" id="modal2-open"><span class="fa fa-envelope" title="Email"></a>
+						<a href="https://www.facebook.com/ItMattersOfficial/"><span class="fa fa-facebook" title="Facebook"></span></a>
+						<!-- <a href="#"><span class="fa fa-twitter" title="Twitter"></span></a> -->
+						<a href="https://instagram.com/itmattersofficial/"><span class="fa fa-instagram" title="Instagram"></span></a>
+						<!-- <a href="#"><span class="fa fa-google-plus" title="Google Plus"></span></a> -->
 					</div>
 
 				</section>
 			</div>
-		</div>
+		</div>s
 
 		<!-- Modal page: About Us -->
 		<div id="modal">
@@ -188,23 +188,29 @@
 				<!-- Content -->
 				<section class="content">
 
-					<h1 class="section-title">Subscribe</h1>
+					<h1 class="section-title">Get in Touch</h1>
 
-					<!-- Columns -->
-						<p class="subtitle">Notify Me When It's Ready</p>
-						<p class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-							<!-- subscribe form -->
-					<div id="subscribe" class="form-wrap">
-						<form action="http://artsoundgroup.com/html/relax/html/video/subscribe.php" method="post" id="subscribe-form">
-							<p class="form-field">
-								<label for="subscribe_email" class="screen-reader-text">Your email</label>
-								<input type="text" name="subscribe_email" id="subscribe_email" value="" placeholder="Your email" />
-							</p>
-							<p class="form-submit">
-								<input type="submit" name="subscribe_submit" id="subscribe_submit" value="Subscribe" />
-							</p>
-						</form>
-					</div>
+					<div class="contact-overlay">
+						<div class="w-container">
+							 <div class="form-wrapper">
+									<div class="contact-text">Thank you for your interest! Please fill out the form below if you would like to get in touch.</div>
+									<div class="w-form">
+										 <form class="gform" method="POST" action="https://script.google.com/macros/s/AKfycby1Nk8ryTecvl300J-PVVHjuaQCD5b_xrm-ObOuu8n2OMYG1VTw/exec">
+												<input class="text-field w-input" required="true" maxlength="256" name="name" placeholder="Enter your name" type="text">
+												<input class="text-field w-input" required="true" maxlength="256" name="email" placeholder="Enter your email address" required="required" type="email">
+												<textarea class="text-area text-field w-input" required="true" maxlength="5000" name="message" placeholder="Your message. Please mention the subject in the beginning..."></textarea>
+												<input class="submit-button w-button" data-wait="Please wait..." type="submit" value="Send">
+												<div style="display:none;margin: 10px;" class="thankyou_message">
+													 <p class="success-text">Thank you! Your submission has been received!</p>
+												</div>
+										 </form>
+										 <div class="w-form-fail">
+												<p>Oops! Something went wrong while submitting the form</p>
+										 </div>
+									</div>
+							 </div>
+						</div>
+				 </div>
 				</section>
 			</div>
 		</div>
@@ -239,6 +245,7 @@
 	<script type="text/javascript" src="js/plugins.js"></script>
 	<script type="text/javascript" src="js/jquery.mb.YTPlayer.min.js"></script>
 	<script type="text/javascript" src="js/scripts.js"></script>
+	<script data-cfasync="false" type="text/javascript" src="js/form-submission-handler.js"></script>
 </body>
 
 <!-- Mirrored from artsoundgroup.com/html/relax/html/video/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 10 Jan 2020 15:22:18 GMT -->
