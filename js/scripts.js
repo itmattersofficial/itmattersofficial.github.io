@@ -127,7 +127,7 @@
 				e.preventDefault();
 			});
 		});
-		
+
 		// Open modal2 window on click
 		$('#modal2-open').on('click', function(e) {
 			var mainInner = $('#main .inner'),
@@ -148,5 +148,5 @@
 		});
 
 	});
-	
+
 })(jQuery);

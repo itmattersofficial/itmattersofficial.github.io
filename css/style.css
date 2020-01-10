@@ -1,7 +1,7 @@
 /* ==============================================================
 
 	Project: 	Relax - Responsive Coming Soon Template
-	Info:		
+	Info:
 	Version: 	1.0
 	Author:		Art Sound Group
 	Profile:	https://themeforest.net/user/artsoundgroup
@@ -26,12 +26,12 @@
 	Mine text:			#fff
 	Buttons hover:		rgba(255,255,255,0.3)
 	Buttons solid:		rgba(255,255,255,0.8)
-	
+
 -----------------------------------------------------------------
 					*** TYPOGRAPHY ***
 -----------------------------------------------------------------
 	Body copy: Sansita,sans-serif;
-	
+
 =============================================================*/
 
 /*********************
@@ -243,13 +243,13 @@ textarea {
 *********************/
 
 /* Clearing floats */
-.row:after { 
-	clear: both; 
+.row:after {
+	clear: both;
 }
 
-.row:before,.row:after { 
-	content: ""; 
-	display: table; 
+.row:before,.row:after {
+	content: "";
+	display: table;
 }
 
 /* Assistive text */
@@ -358,7 +358,7 @@ input[type="submit"]:hover {
 	letter-spacing: 1px;
 	padding: 6px;
 	position: absolute;
-	right: 6px;	
+	right: 6px;
 	text-transform: uppercase;
 	top: -14px;
 }
@@ -410,6 +410,10 @@ input[type="submit"]:hover {
 }
 
 #modal .section-title {
+	margin-bottom: 42px;
+}
+
+#modal1 .section-title {
 	margin-bottom: 42px;
 }
 
@@ -490,7 +494,7 @@ input[type="submit"]:hover {
 	-moz-transition-property:-moz-transform;
 	-o-transition-property:-o-transform;
 	transition-property:transform;
-	
+
 }
 
 .social a:hover
@@ -564,25 +568,25 @@ input[type="submit"]:hover {
 }
 
 a.button-about {
-	color: #fff; 
-	text-decoration: none; 
-	background: rgba(0,0,125,0.0); 
+	color: #fff;
+	text-decoration: none;
+	background: rgba(0,0,125,0.0);
 	margin: 28px 0;
-	padding: .7em 1.5em; 
-	outline: none; 
+	padding: .7em 1.5em;
+	outline: none;
 	border:1px solid #fff;
 	-webkit-border-radius:5%;
 	-moz-border-radius:5%;
-} 
-a.button-about:hover { 
+}
+a.button-about:hover {
 	background:rgba(255,255,255,0.3);
 	color:#fff;
 	border:1px solid rgba(255,255,255,0.8);
 	-webkit-border-radius:5%;
 	-moz-border-radius:5%; }
-	
-a.button-about:active { 
-	background:rgba(255,255,255,0.3); 
+
+a.button-about:active {
+	background:rgba(255,255,255,0.3);
 	border:1px solid #fff;
 	-webkit-border-radius:5%;
 	-moz-border-radius:5%;
@@ -595,7 +599,7 @@ a.button-about:active {
 	height: 100%;
 	left: 0;
 	position: fixed;
-	top: 0;	
+	top: 0;
 	width: 100%;
 	z-index: 998;
 }
@@ -720,6 +724,18 @@ transform:rotate(0deg);
 	z-index: 997;
 }
 
+#modal1 {
+	background: #1f1f1f;
+	background: rgba(31,31,31,0.8);
+	display: none;
+	left: 0;
+	min-height: 100%;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 997;
+}
+
 #modal2 {
 	background: #1f1f1f;
 	background: rgba(31,31,31,0.8);
@@ -735,6 +751,10 @@ transform:rotate(0deg);
 
 
 #modal .inner {
+	max-width: 612px;
+}
+
+#modal1 .inner {
 	max-width: 612px;
 }
 
@@ -830,7 +850,7 @@ transform:rotate(0deg);
 /* subscribe */
 #subscribe {
 	margin: 0 auto;
-	max-width: 588px;	
+	max-width: 588px;
 }
 
 #subscribe-form {
@@ -904,6 +924,11 @@ transform:rotate(0deg);
 	text-align: center;
 }
 
+#modal1 .modal-toggle  {
+	margin-bottom: 42px;
+	text-align: center;
+}
+
 #modal2 .modal-toggle  {
 	margin-bottom: 42px;
 	text-align: center;
@@ -935,13 +960,13 @@ transform:rotate(0deg);
 @media only screen and (max-width: 540px) {
 	.one-half  {
 		width: 100%;
-	}	
+	}
 }
 
 @media only screen and (max-width: 540px) {
 	.one-third  {
 		width: 100%;
-	}	
+	}
 }
 
 @media only screen and (max-width: 480px) {
