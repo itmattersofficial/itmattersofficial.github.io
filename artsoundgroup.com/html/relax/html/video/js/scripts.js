@@ -108,6 +108,25 @@
 				e.preventDefault();
 			});
 		});
+
+		// Open modal1 window on click
+		$('#modal1-open').on('click', function(e) {
+			var mainInner = $('#main .inner'),
+				modal1 = $('#modal1');
+
+			mainInner.animate({ opacity: 0 }, 400, function(){
+				$('html,body').scrollTop(0);
+				modal1.addClass('modal1-active').fadeIn(400);
+			});
+			e.preventDefault();
+
+			$('#modal1-close').on('click', function(e) {
+				modal1.removeClass('modal1-active').fadeOut(400, function(){
+					mainInner.animate({ opacity: 1 }, 400);
+				});
+				e.preventDefault();
+			});
+		});
 		
 		// Open modal2 window on click
 		$('#modal2-open').on('click', function(e) {
