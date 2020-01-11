@@ -986,6 +986,10 @@ transform:rotate(0deg);
 		right: auto;
 		top: auto;
 	}
+
+	.body-bg {
+		background: url(images/2_.jpeg);
+	}
 }
 
 @media only screen and (max-width: 360px) {
