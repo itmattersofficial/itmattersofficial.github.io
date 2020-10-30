@@ -474,7 +474,7 @@ input[type="submit"]:hover {
 .social a
 {
 	display:inline-block;
-	border:1px solid #fff;
+	border:2px solid #fff;
 	color:#fff;
 	margin-right:5px;
 	-webkit-border-radius:100%;
@@ -498,11 +498,11 @@ input[type="submit"]:hover {
 .social a:hover
 {
 	background:rgba(255,255,255,0.3);
-	border:1px solid #fff;
+	border:1.899px solid #fff;
 	color: #fff;
-	-webkit-transform:rotate(360deg);
+	/* -webkit-transform:rotate(360deg);
 	-moz-transform:rotate(360deg);
-	-o-transform:rotate(360deg);
+	-o-transform:rotate(360deg); */
 }
 
 .social ul {
@@ -569,17 +569,17 @@ a.button-about {
 	color: #fff;
 	text-decoration: none;
 	background: rgba(0,0,125,0.0);
-	margin: 28px 0;
+	margin: 28px 5px;
 	padding: .7em 1.5em;
 	outline: none;
-	border:1px solid #fff;
+	border:2px solid #fff;
 	-webkit-border-radius:5%;
 	-moz-border-radius:5%;
 }
 a.button-about:hover {
 	background:rgba(255,255,255,0.3);
 	color:#fff;
-	border:1px solid rgba(255,255,255,0.8);
+	border:1.899px solid rgba(255,255,255,0.8);
 	-webkit-border-radius:5%;
 	-moz-border-radius:5%; }
 
