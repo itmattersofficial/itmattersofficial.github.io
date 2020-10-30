@@ -764,7 +764,7 @@ transform:rotate(0deg);
 
 /* Background Overlay */
 .body-bg {
-	background: rgba(0,0,0,0.3) url(images/overlay.png) repeat;
+	background: rgba(0,0,0,0.3) url(../images/overlay.png) repeat;
 	height: 100%;
 	left: 0;
 	position: fixed;
@@ -988,7 +988,7 @@ transform:rotate(0deg);
 	}
 
 	.body-bg {
-		background: url(images/2_.jpeg);
+		background: url(../images/2_.jpeg);
 	}
 }
 
